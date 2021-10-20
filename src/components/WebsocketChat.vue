@@ -32,7 +32,7 @@
           </button>
         </div>
         <div v-if="connected" class="flex flex-col items-center">
-          <div class="grid grid-cols-3 gap-4">
+          <div class="grid grid-cols-2 gap-4">
             <input
               :disabled="!connected"
               v-model="msgSend"
@@ -49,20 +49,11 @@
               Send
             </button>
           </div>
-
-          <!-- <button
-              id="send"
-              class="btn btn-default"
-              type="submit"
-              @click.prevent="send2"
-            >
-              Send2
-            </button> -->
         </div>
       </div>
       <div
         v-if="connected"
-        class="my-12 flex flex-col place-content-center bg-gray-200 rounded-lg shadow-lg"
+        class="my-2 flex flex-col place-content-center bg-gray-200 rounded-lg shadow-lg"
       >
         <div v-for="(msg, index) in msgReceived" :key="index">
           <div
