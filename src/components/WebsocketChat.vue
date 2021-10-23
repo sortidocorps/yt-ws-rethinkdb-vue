@@ -83,6 +83,26 @@ export default {
       name: "",
     };
   },
+
+  // mounted() {
+  // Historic des msg
+  //   const requestOptions = {
+  //     method: "GET",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       "Access-Control-Allow-Origin": "*",
+  //     },
+  //   };
+  //   fetch("http://localhost:8090/chat", requestOptions)
+  //     .then((response) => {
+  //       return response.json();
+  //     })
+  //     .then((data) => {
+  //       this.msgReceived = data;
+  //       console.log("msgReceived", this.msgReceived);
+  //     })
+  //     .catch((err) => console.log(err));
+  // },
   methods: {
     send2() {
       console.log("Send message:" + this.msgSend);
