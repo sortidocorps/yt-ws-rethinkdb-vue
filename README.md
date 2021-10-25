@@ -2,6 +2,9 @@
 
 Link to backend: https://github.com/sortidocorps/yt-rethinkdb-sbt
 
+Youtube link:
+https://www.youtube.com/watch?v=DxG4A6RI8iI
+
 ## Project setup
 
 ```
